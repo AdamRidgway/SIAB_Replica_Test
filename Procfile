@@ -1,1 +1,1 @@
-web: gunicorn myapp:app
+npm start
