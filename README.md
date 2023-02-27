@@ -1,4 +1,4 @@
-# SIAB_AutoTrigger_CustomActivity_V2
+# SIAB_AutoTrigger_CustomActivity_Duplicate_Test
 
 # Mercer Marketing Cloud Journey Builder Custom Activity 
 > This custom activity for Mercer's Marketing Cloud Journey Builder Custom Activity. It is hosted on Heroku and running on NodeJS
