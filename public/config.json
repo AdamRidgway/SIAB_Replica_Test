@@ -8,16 +8,16 @@
     "type": "REST",
     "lang": {
         "en-US": {
-            "name": "Mercer_SIAB_V2",
+            "name": "Mercer_SIAB_Replica_Test",
           "description": "Super In a Box App Version 2.0, this app retrieves the data from JB and passes to CloudPage for email trigger.",
-          "step1Label": "SIAB Activity"
+          "step1Label": "SIAB Activity Replica Test"
         }
     },
     "arguments": {
         "execute": {
            "inArguments":[],
           "outArguments": [],
-          "url": "https://page.super-retirement.com.au/siab-custom-activity-execute-V2?id=769f1ba2904d46baa3c8068763044879",
+          "url": "https://page.super-retirement.com.au/siab-duplicate-test-execute?id=12345",
            "verb": "POST",
             "body": "",
             "header": "",
@@ -27,24 +27,24 @@
         }
     },
     "configurationArguments": {
-      "applicationExtensionKey": "695eda72-e7b2-47e9-a9e5-8bbda3b2dcb0",
+      "applicationExtensionKey": "4de0268d-c4b2-4471-b984-f444fbaba932",
       "save": {
-        "url": "https://page.super-retirement.com.au/siab-custom-activity-save-V2",
+        "url": "https://page.super-retirement.com.au/siab-duplicate-test-save",
           "verb": "POST",
         "useJwt": true
        },
        "publish": {
-        "url": "https://page.super-retirement.com.au/siab-custom-activity-publish-V2",
+        "url": "https://page.super-retirement.com.au/siab-duplicate-test-publish",
            "verb": "POST",
         "useJwt": true
        },
       "stop": {
-        "url": "https://page.super-retirement.com.au/siab-custom-activity-stop-V2",
+        "url": "https://page.super-retirement.com.au/siab-duplicate-test-stop",
            "verb": "POST",
         "useJwt": true
       },
       "validate": {
-        "url": "https://page.super-retirement.com.au/siab-custom-activity-validate-V2",
+        "url": "https://page.super-retirement.com.au/siab-duplicate-test-validate",
         "verb": "POST",
         "useJwt": true
       }
