@@ -73,7 +73,7 @@ define([
         var eventDefinitionKey = "DEAudience-98688614-ca60-e92f-aae9-cefd8e49125a";
         
         payload['arguments'].execute.inArguments = [
-            //{"LetterRefId":"{{Event."+ eventDefinitionKey + ".LetterRefId}}"},
+            {"LetterRefId":"{{Event."+ eventDefinitionKey + ".LetterRefId}}"},
             {"EventInstanceID":"{{Event."+ eventDefinitionKey + ".EventInstanceID}}"},
             {"cloupra__Person__c":"{{Event."+ eventDefinitionKey + ".cloupra__Person__c}}"},
             {"Service_Id":"{{Event."+ eventDefinitionKey + ".Service_Id}}"},
@@ -104,6 +104,7 @@ define([
             {"Communication_Name":"{{Event."+ eventDefinitionKey + ".Communication_Name}}"},
             {"Source__C":"{{Event."+ eventDefinitionKey + ".Source__C}}"},
             {"Type__C_Desc":"{{Event."+ eventDefinitionKey + ".Type__C_Desc}}"},
+	    {"DE_Key":"{{Event."+ eventDefinitionKey + ".DE_Key}}"},
             {"TestRecord":"{{Event."+ eventDefinitionKey + ".TestRecord}}"},
             {"DEROWID":"{{Event."+ eventDefinitionKey + "._customObjectKey}}"},
             {"TriggeredSendExternalKey":"{{Event."+ eventDefinitionKey + ".TriggeredSendExternalKey}}"}];
