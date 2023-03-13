@@ -73,7 +73,7 @@ define([
         var eventDefinitionKey = "DEAudience-98688614-ca60-e92f-aae9-cefd8e49125a";
         
         payload['arguments'].execute.inArguments = [
-            {"LetterRefId":"{{Event."+ eventDefinitionKey + ".LetterRefId}}"},
+            //{"LetterRefId":"{{Event."+ eventDefinitionKey + ".LetterRefId}}"},
             {"EventInstanceID":"{{Event."+ eventDefinitionKey + ".EventInstanceID}}"},
             {"cloupra__Person__c":"{{Event."+ eventDefinitionKey + ".cloupra__Person__c}}"},
             {"Service_Id":"{{Event."+ eventDefinitionKey + ".Service_Id}}"},
