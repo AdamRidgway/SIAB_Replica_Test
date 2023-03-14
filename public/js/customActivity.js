@@ -74,7 +74,7 @@ define([
         
         payload['arguments'].execute.inArguments = [
             {"LetterRefId":"{{Event."+ eventDefinitionKey + ".LetterRefId}}"},
-            {"EventInstanceID":"{{Event."+ eventDefinitionKey + ".EventInstanceID}}"},
+            {"EventInstanceID12":"{{Event."+ eventDefinitionKey + ".EventInstanceID12}}"},
             {"cloupra__Person__c":"{{Event."+ eventDefinitionKey + ".cloupra__Person__c}}"},
             {"Service_Id":"{{Event."+ eventDefinitionKey + ".Service_Id}}"},
             {"FirstName":"{{Event."+ eventDefinitionKey + ".FirstName}}"},
