@@ -70,7 +70,7 @@ define([
     function save() {
     	
 		// get the Key field from the Interactions API call for the journey
-        var eventDefinitionKey = "AutomationAud-68afa9ff-61a1-2444-6229-73cb2ac933f7";
+        var eventDefinitionKey = "DEAudience-219e7155-d0f3-61fd-b905-016c32d64818";
         
         payload['arguments'].execute.inArguments = [
             {"LetterRefId":"{{Event."+ eventDefinitionKey + ".LetterRefId}}"},
